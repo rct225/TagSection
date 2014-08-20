@@ -3,7 +3,7 @@ Imports System.Xml
 
 'Builds a custom configuration section in the App.config to specify which tags to query in Process Value Archive database
 
-'Class to extend ConfigurationSection to build section to specify Tags
+'Class to extend ConfigurationSection to build section to specify Tags ()
 Public Class TagConfigurationSection
     Inherits ConfigurationSection
     ' 
