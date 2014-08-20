@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="TagSection.Binaries">
+            <Component Id="cmp1C9A3EB2B5AEAEF0B2477D5CFA849CDE" Guid="*">
+                <File Id="fil9B30F3024D02F7FA1D3F73932ECFA64B" Source="$(var.TagSection.TargetDir)\TagSection.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="TagSection.Binaries">
+            <ComponentRef Id="cmp1C9A3EB2B5AEAEF0B2477D5CFA849CDE" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>
